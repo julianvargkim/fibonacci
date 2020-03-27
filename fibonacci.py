@@ -23,10 +23,6 @@ def mem_fibonacci(n: int):
 
 
 def fibonacci_example(n: int):
-    """
-    Returns nth fibonacci value.
-    :param n: the nth.
-    """
     if type(n) != int:
         raise TypeError("fibonacci_example: only positive integer allowed.")
     if n < 1:
